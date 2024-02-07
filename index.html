@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruthvi Raj Palimkar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+    
+    <script src="tut1.js"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="PruthviRajPalimkar.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">My Work</a></li>
+            <li class="item"><a href="#portfolio">About</a></li>
+            <li class="item"><a href="#contact">Contact</a></li>
+            
+        </ul>
+    </nav>
+    <section id="home">
+        <video class="video1" src="video1.mp4" autoplay muted loop></video>
+        <h1 class="h-primary">Welcome to My Portfolio</h1>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, expedita! Ratione sed, aut reprehenderit molestiae inventore quo.</p> -->
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+        <div class="leftSection">
+            Hello, My name is <span class="purple"><strong>Pruthvi Raj</strong>,</span>
+            <!-- <div>and I am a Passionate Web Developer</div> -->
+            <!-- Element to contain animated typing -->
+            <span>I am a passionate</span>
+            <strong><span id="element"></span></strong>
+        </div>
+
+        <!-- <button class="btn">Order Now</button> -->
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">My work</h1>
+        <div id="services">
+            <div class="box scroll-reveal" id="project1">
+                <img src="bg2.png" alt="">
+                <h2 class="h-secondary center">ShoppingCart website</h2>
+                <p>Created a web page using Angular, it includes features like add to cart, remove from cart, user can view cart list by clicking on my 
+                    cart and remove cart items if not needed 
+                    </p>
+            </div>
+            <div class="box scroll-reveal" id="project2">
+                <img src="bg3.jpg" alt="">
+                <h2 class="h-secondary center">Todo List</h2>
+                <p>Created a website using Angular, it includes features like adding title of your task, adding description, marking as task completed, 
+                    and deleting the task</p>
+            </div>
+            <div class="box scroll-reveal" id="project3">
+                <img src="bg5.jpg" alt="">
+                <h2 class="h-secondary center">Food ordering website</h2>
+                <p>Created a web page, Responsive creates dynamic changes to the appearance of a website, depending on the screen size and 
+                    orientation of the device being used to view it.</p>
+            </div>
+            
+        </div>
+    </section>
+    
+<section id="portfolio">
+    <div class="entry">
+        <div class="entry__meta">
+            <h6>About</h6>
+            <h4>Currently i am working as Production Management Analyst At Morgan Stanley.</h4>
+        </div>
+        <figure class="entry__media">
+            <img class = "lgo3" src="logo4.jpg" alt="Scorpio Zodiac Star Sign">
+        </figure>
+    </div>
+    <div class="entry">
+        <div class="entry__meta">
+            <h3 class ="heads">You can know more about me by clicking on the icons</h3>
+        </div>
+        <figure class="entry__media">
+            <div class="connectme1">
+                <div class="connect1">
+                    <span>Resume</span><img  src="res.png" alt="Linkedin Logo Png Images Free Download - Linked In Png @clipartmax.com" class="resume" id="btn1">
+                </div>
+                <div class="connect1">
+                    <span>Github</span><img  src="git.png" alt="Linkedin Logo Png Images Free Download - Linked In Png @clipartmax.com" class="git" id="btn2">
+                </div>
+                <div class="connect1">
+                    <span>LinkedIn</span><img  src="link.png" alt="Linkedin Logo Png Images Free Download - Linked In Png @clipartmax.com" class="link" id="btn3">
+                </div>
+        </figure>
+    </div>
+    <!-- <div class="ConnectMe">
+        <h3 class ="heads">You can know more about me by clicking on the icons</h3>
+        <div class="connectme1">
+            <div class="connect1">
+                <span>Resume</span><img  src="res.png" alt="Linkedin Logo Png Images Free Download - Linked In Png @clipartmax.com" class="resume" id="btn1">
+            </div>
+            <div class="connect1">
+                <span>Github</span><img  src="git.png" alt="Linkedin Logo Png Images Free Download - Linked In Png @clipartmax.com" class="git" id="btn2">
+            </div>
+            <div class="connect1">
+                <span>LinkedIn</span><img  src="link.png" alt="Linkedin Logo Png Images Free Download - Linked In Png @clipartmax.com" class="link" id="btn3">
+            </div>
+        </div>
+    </div> -->
+</section>
+
+<section id="contact">
+    <video class="video2" src="video6.mp4" autoplay muted loop></video>
+        <h1 class="h-primary center">Connect with Me</h1>
+    
+    <div id="contact-box">
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="1c91a202-3d87-4525-bccd-f0bd871eec59">
+            <div class="form-group">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="name">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number: </label>
+                <input type="phone" name="phone" id="phone" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+                <label for="message">Message: </label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <button class="sub">Submit</button>
+            <!-- <input type="submit" value="Submit"> -->
+
+        </form>
+    </div>
+</section> 
+<!-- <footer>
+    <div class="center">
+        Copyright &copy; www.myOnlineMeal.com. All rights reserved!
+    </div>
+</footer> -->
+</body>
+</html>
