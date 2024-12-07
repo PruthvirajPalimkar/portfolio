@@ -1,130 +1,125 @@
-/* Navigation  */
-#navbar{
+/* Navigation */
+#navbar {
     flex-direction: column;
+    align-items: center;
+    padding: 10px;
 }
-#navbar ul li a{
-    font-size: 1rem;
-    padding: 0px 7px;
-    padding-bottom: 8px;
+#navbar ul li a {
+    font-size: 1.2rem; /* Slightly larger for better readability */
+    padding: 5px 10px;
+    padding-bottom: 10px;
 }
-/* Home section  */
-#home{
-    height: 370px;
-    padding: 3px 28px;
+
+/* Home section */
+#home {
+    height: auto; /* Allow it to adjust to content */
+    padding: 10px 20px;
 }
-#home::before{
-    height: 480px;
+#home::before {
+    height: auto; /* Adjust based on content */
 }
-#home p{
-    font-size: 13px; 
+#home p {
+    font-size: 14px; /* Slightly larger for readability */
+    line-height: 1.5; /* Better text spacing */
 }
+
 /* Services section */
-#services{
+#services {
     flex-direction: column;
+    padding: 10px;
 }
-#services .box{
-    padding: 14px;
-    margin: 2px 0px;
-    margin-bottom: 20px;
+#services .box {
+    padding: 16px;
+    margin: 10px 0;
 }
-#services .box img{
-    /* border: 2px solid rgb(44, 246, 18); */
-    height: 110px;
-    width: 180px;
-    margin: auto;
+#services .box img {
+    height: 100px;
+    width: auto; /* Maintain aspect ratio */
+    margin: 10px auto;
     display: block;
 }
-/* Clients section  */
-#clients{
+
+/* Clients section */
+#clients {
     flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
 }
-#clients img{
-    width: 46px;
-    padding: 6px;
+#clients img {
+    width: 60px; /* Slightly larger for visibility */
+    padding: 8px;
     height: auto;
 }
+
 /* Contact us section */
-#contact-box form{
-    width: 80%;
+#contact-box form {
+    width: 90%; /* Adjust to fit mobile screens */
+    margin: 0 auto; /* Center it */
 }
-/* Footer  */
 
-/* Utility classes  */
+/* Footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Utility classes */
 .h-primary {
-    font-size: 26px;  
+    font-size: 24px;  
+    text-align: center;
 }
-.leftSection{
-    font-size: 26px; 
+.leftSection {
+    font-size: 22px; 
     justify-content: center;
+    text-align: center;
 }
-.btn{
-    font-size: 13px;
-    padding: 4px 8px;
+.btn {
+    font-size: 14px;
+    padding: 6px 12px;
+}
+.btn1 {
+    font-size: 14px;
+    width: auto;
+    margin: 10px auto;
+    padding: 6px 12px;
+    display: block;
+    text-align: center;
 }
 
-.btn1{
-    font-size: 13px;
+/* Skills section */
+.skillsection {
+    max-width: 100%; /* Full width for mobile */
+    margin: 10px;
+    justify-content: center;
+    min-height: auto; /* Adjust based on content */
+}
+.skillsection .box {
+    width: 90%; /* Adjust to fit screen */
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+.skillsection .vertical {
+    height: 2px;
     width: 100px;
-    margin: 10px 0px 0px 100px;
-    padding: 4px 8px;
+    margin: 20px auto;
 }
-/* skills section */
-
-.skillsection{
-    max-width: 80vw;
+.vertical-title {
+    color: white;
     margin: 5px;
+    text-align: center;
+}
+.image-top {
+    height: 50px; /* Adjust size */
+    display: flex;
     justify-content: center;
-    /* color: white; */
-    /* height: 5vh; */
-    min-height: 60vh;
-    
-}
-/* .skillsection h1{
-    font-size: 1.9rem;
-    color: white;
-} */
-.skillsection .box{
-    /* background: white; */
-    /* width: 80vw; */
-    width: 4px;
-    /* height: 4px; */
-    height: 80vw;
-    margin: 0px 80px;
-    display: flex;
-    /* display: flex; */
-    flex-direction: column;
-}
-.skillsection .vertical{
-    /* height: 93px; */
-    height: 1px;
-    /* width: 1px; */
-    width: 93px;
-    /* background-color: white; */
-
-    margin: 100px 0px;
-}
-.vertical-title{
-    color: white;
-    margin: 1px;
-    display: flex;
-    flex-direction: column;
-}
-.image-top{
-    /* width: 33px;
-    position: relative;
-    top: -52px;
-    left: -9px; */
-    height: 33px;
-    display: flex;
-    flex-direction: column;
-    bottom: -52px;
-    right: -9px;
-    justify-content: center;
+    margin: 20px auto;
 }
 
-.buttons{
+.buttons {
     justify-content: center;
-    display:flex; 
-    flex-direction:column;
-    margin: 2px;
+    display: flex; 
+    flex-direction: column;
+    margin: 10px auto;
 }
