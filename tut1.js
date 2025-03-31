@@ -97,7 +97,8 @@ document.addEventListener('DOMContentLoaded', function() {
   window.open(linkUrl, '_blank');
 });
 btn3.addEventListener('click', function(){
-  var linkUrl = 'https://www.linkedin.com/in/pruthvi-raj-palimkar/';
+  // var linkUrl = 'https://www.linkedin.com/in/pruthvi-raj-palimkar/';
+  var linkUrl = 'https://www.linkedin.com/in/pruthvi-raj-palimkar-a7a07a237/?original_referer=';
   window.open(linkUrl, '_blank');
   });
   btn4.addEventListener('click', function(){
